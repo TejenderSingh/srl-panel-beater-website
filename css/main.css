@@ -1,0 +1,66 @@
+html {
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(161, 102, 102, 0.01) 0 0 1px;
+}
+body {
+    background: #eceff1;
+}
+.slider .btn {
+    margin-top: 2.5rem;
+}
+.about .col p {
+    font-size: 1.2rem;
+}
+.contact .card-panel h5 {
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .slides h3 {
+        font-size: 2rem;
+    }
+}
+/* Background colors */
+.sec-bg-color {
+    background-color: #1A2C4C !important;
+}
+.sec-bg-color-darken{
+    background-color: #182846 !important;
+}
+.bg-color {
+    background-color: #828B9D !important;
+}
+.grey-bg {
+    background-color: #d1d8e0 !important;
+}
+
+/* Colors */
+.sec-color {
+    color: #1A2C4C;
+}
+
+/* Padding and Margin */
+.pl20 {
+    padding-left: 3rem !important;
+}
+.mr5 {
+    margin-right: 5px !important;
+}
+.mb0 {
+    margin-bottom: 0;
+}
+.overlay-x {
+    position: absolute !important;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #ddd;
+     opacity: 0.50;
+     z-index: -1;
+ }
+.large {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
