@@ -6,6 +6,9 @@
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 
   <!--Let browser know website is optimized for mobile-->
@@ -19,7 +22,7 @@
             <nav class="sec-bg-color">
                 <div class="container">
                     <div class="nav-wrapper">
-                        <a href="#" class="brand-logo"><img src="https://cdn.svgporn.com/logos/netflix.svg" alt="SRS Panel" height="40px" width="auto" style= margin-top:13px;></a>
+                        <a href="#" class="brand-logo"><img src="img/logo.png" alt="SRS Panel" height="40px" width="auto" style= margin-top:11px;></a>
                         <a href="#" data-activates="mobile-nav" class="button-collapse">
                             <i class="material-icons">menu</i>
                         </a>
@@ -46,18 +49,18 @@
         <div class="slider">
             <ul class="slides">
                 <li>
-                    <div class="overlay-x"><img class="responsive-img" src="img/slider-1.jpeg" alt=""></div>
+                    <div class="overlay-x"><img class="responsive-img" src="img/slider-1.jpeg" alt="worker at panel beater shop "></div>
                     <div class="caption center-align">
-                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <h3>Panel beating and collision repair service </h3>
                         <h5 class="light hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum expedita similique distinctio, hic quam error lorem10  </h5>
                         <a href="#about" class="btn btn-large red darken-2">Read more</a>
                     </div>
                 </li>
                 
                 <li>
-                    <div class="overlay-x"><img src="img/slider-2.jpeg" alt=""></div>
+                    <div class="overlay-x"><img src="img/slider-2.jpeg" alt="person handing over keys"></div>
                     <div class="caption left-align">
-                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <h3>We offer free courtesy car</h3>
                         <h5 class="light hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum expedita similique distinctio, hic quam error.</h5>
                         <a href="#contact" class="btn btn-large red darken-2">Contact Us</a>
                     </div>
@@ -68,11 +71,11 @@
 
     <section id="about" class="section center about grey lighten-5 scrollspy">
         <div class="container">
-            <h3 class="sec-color mb0">About Us</h3>
+            <h3 class="sec-color">About Us</h3>
             <div class="row">
                 <div class="col s12 m12 l6 push-l6">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda architecto, vero eveniet rerum ad tempore eligendi beatae. Officia nemo iusto in, repudiandae laborum eius explicabo cum saepe vitae asperiores dolorem enim ullam id sunt voluptatem. Ipsam, libero labore vitae asperiores fugiat tempora beatae, suscipit esse.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, amet! Repudiandae deserunt vel quod error temporibus laudantium tempora omnis maiores, minus vero dignissimos consectetur repellendus quidem architecto minima nemo fugiat ut officiis. Facere omnis recusandae quibusdam culpa praesentium ver</p>
+                    <p>Recusandae, amet! Repudiandae deserunt vel quod error temporibus laudantium tempora omnis maiores, Facere omnis recusandae quibusdam culpa praesentium ver</p>
                 </div>
                 <div class="col s12 m12 l6 pull-l6">
                     <img class="responsive-img" src="img/about.jpeg" alt="Image">
@@ -88,8 +91,8 @@
                 <div class="col s12 m4 l4 card-container">
                     <div class="card red darken-2">
                         <div class="card-content white-text">
-                            <div class="center"><i class="fas large fa-car"></i></div>
-                            <span class="card-title center">Courtesy Car</span>
+                            <div class="center"><i class="fas fa-car large"></i></div>
+                            <span class="card-title center">Collision Repair</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laborum nisi ab possimus accusantium reprehenderit, error fuga dignissimos fugiat eaque repudiandae consectetur mollitia accusamus reiciendis quisquam consequuntur magni esse sequi!</p>
                         </div>
                     </div>
@@ -97,8 +100,8 @@
                 <div class="col s12 m4 l4 card-container">
                     <div class="card red darken-2">
                         <div class="card-content white-text">
-                            <div class="center"><i class="fas large fa-clock"></i></div>
-                            <span class="card-title center">Service on Time</span>
+                            <div class="center"><i class="fas fa-car large"></i></div>
+                            <span class="card-title center">Panel Beating</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laborum nisi ab possimus accusantium reprehenderit, error fuga dignissimos fugiat eaque repudiandae consectetur mollitia accusamus reiciendis quisquam consequuntur magni esse sequi!</p>
                         </div>
                     </div>
@@ -106,8 +109,8 @@
                 <div class="col s12 m4 l4 card-container">
                     <div class="card red darken-2">
                         <div class="card-content white-text">
-                            <div class="center"><i class="fas large fa-map-marker-alt"></i></div>
-                            <span class="card-title center">Great Location</span>
+                            <div class="center"><i class="fas fa-car large "></i></div>
+                            <span class="card-title center">Spray Painting</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laborum nisi ab possimus accusantium reprehenderit, error fuga dignissimos fugiat eaque repudiandae consectetur mollitia accusamus reiciendis quisquam consequuntur magni esse sequi!</p>
                         </div>
                     </div>
@@ -124,27 +127,27 @@
                 <div class="col s12 m12">
                     <ul class="collapsible popout">
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">expand_more</i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, suscipit.</div>
+                            <div class="collapsible-header"><i class="material-icons">expand_more</i>What if my vehicle is not driveable?</div>
                             <div class="collapsible-body white"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi provident, natus tenetur vero consequuntur expedita voluptatum alias nihil saepe, officiis ipsam. Quas, maiores! Pariatur facere accusamus porro dolore impedit libero nobis eligendi cupiditate corrupti laborum ipsa natus provident sed enim doloribus ratione eveniet, culpa suscipit nulla, officiis ullam saepe. Debitis!</span></div>
                         </li>
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">expand_more</i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, eaque!</div>
+                            <div class="collapsible-header"><i class="material-icons">expand_more</i>Do you offer courtesy car?</div>
                             <div class="collapsible-body white"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloribus magni architecto amet voluptate velit iusto at quae, totam fugiat reiciendis harum pariatur? Sunt ex, maiores, laboriosam eveniet, illum nam enim necessitatibus facere aspernatur ipsa molestias dignissimos amet, autem perferendis saepe. Sed, error beatae ea enim mollitia laborum perferendis fugit.</span></div>
                         </li>
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">expand_more</i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quisquam.</div>
+                            <div class="collapsible-header"><i class="material-icons">expand_more</i>What if I can not pick up my vehicle?</div>
                             <div class="collapsible-body white"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque aliquid necessitatibus minima consectetur distinctio, ipsa a, culpa, quae quod nulla vero? Veritatis nam provident officiis dolorum natus placeat, voluptate vel quisquam necessitatibus eveniet omnis hic facilis quidem alias vero veniam. Commodi harum similique rem nostrum ipsam libero dolorum quidem eligendi.</span></div>
                         </li>
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">expand_more</i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, nam.</div>
+                            <div class="collapsible-header"><i class="material-icons">expand_more</i>Can I get a Repair quote over the phone?</div>
                             <div class="collapsible-body white"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nostrum debitis harum ex dolor voluptate unde dignissimos sed, tempore illo iste, eos veniam commodi incidunt id necessitatibus, placeat! Consequatur sapiente dignissimos ipsam iure suscipit illo vitae accusamus repellat quod necessitatibus doloribus maiores quo culpa repellendus, optio quis dolorum reprehenderit aperiam.</span></div>
                         </li>
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">expand_more</i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, sed.</div>
+                            <div class="collapsible-header"><i class="material-icons">expand_more</i>Will you notify my insurer before the repairs are made?</div>
                             <div class="collapsible-body white"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque architecto impedit, consequatur aperiam consectetur, labore sapiente eum esse molestiae culpa maxime aspernatur perferendis possimus quod illo exercitationem laboriosam, eos saepe odit dolore? Aliquam iste architecto voluptate rerum veniam odit magnam facere, quidem a voluptates ipsa quibusdam, ducimus adipisci veritatis qui.</span></div>
                         </li>
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">expand_more</i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, mollitia!</div>
+                            <div class="collapsible-header"><i class="material-icons">expand_more</i>What payment methods do you accept?</div>
                             <div class="collapsible-body white"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sit, quasi, eveniet ex ad labore voluptates possimus facilis repellat, dolor ducimus! Vel saepe officia illum quod adipisci quis omnis fugit inventore tempore, praesentium eaque ea laudantium consectetur, recusandae, consequuntur necessitatibus. Consequuntur, cumque deleniti harum dolor rerum veniam in iste itaque?</span></div>
                         </li>
                     </ul>
@@ -153,7 +156,7 @@
         </div>
     </section>
 
-    <section id="contact" class="section contact scrollspy">
+    <section id="contact" class="section contact center scrollspy">
         <div class="container">
             <div class="row">
                 <h3 class="sec-color center">Contact Us</h3>
@@ -182,14 +185,8 @@
                     </div>
                 </div>
                 <div class="col s12 m12 l6 pull-l6">
-                    <ul class="collection with-header">
-                        <li class="collection-header">
-                            <h5 class="sec-color">Find us</h5>
-                        </li>
-                        <li class="collection-item pl20">272 Lichfield Street, Christchurch central 8011, New Zealand</li>
-                        <li class="collection-item pl20"><i class="fas fa-mobile fa-lg mr5"></i>1234567810</li>
-                        <li class="collection-item pl20"><i class="fas fa-envelope fa-lg mr5"></i>abc@gmail.com</li>
-                    </ul>
+                    <div id="map">
+                    </div>
                 </div>
             </div>
         </div>
@@ -204,7 +201,7 @@
               <p class="grey-text text-lighten-4">Saturday: 09:00am-05:00pm</p>
               <p class="grey-text text-lighten-4"><i class="fas fa-lg fa-map-marker-alt mr5"></i> 272 Lichfield Street, Christchurch 8011, New Zealand</p>
               <p class="grey-text text-lighten-4"><i class="fas fa-lg fa-phone mr5"></i>012 345 6789</p>
-              <p class="grey-text text-lighten-4"><i class="fas fa-lg fa-envelope mr5"></i>012 345 6789</p>
+              <p class="grey-text text-lighten-4"><i class="fas fa-lg fa-envelope mr5"></i>abc@gmail.com</p>
             </div>
             <div class="col l4 offset-l2 m4 offset-m2 s12">
               <h5 class="white-text">Links</h5>
@@ -214,7 +211,7 @@
                 <li><a class="grey-text text-lighten-3" href="#services">Services</a></li>
                 <li><a class="grey-text text-lighten-3" href="#faqs">Faqs</a></li>
                 <li><a class="grey-text text-lighten-3" href="#contact">Contact</a></li>
-              </ul>
+            </ul>
             </div>
           </div>
         </div>
@@ -228,6 +225,25 @@
   <!--Import jQuery before materialize.js-->
    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
    <script type="text/javascript" src="js/materialize.min.js"></script>
+   <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+   <script>
+       const latLng = [
+               -43.5344339,
+               172.6500489
+               ]
+     const map = L.map('map').setView(latLng, 18);
+     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+const marker = L.marker(latLng).addTo(map);
+marker.bindPopup('<p>Smart Repairs</p>');
+   </script>
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdJFcj24nYKNJphljls3lr7Cn50-c7wMY&callback=initMap">
+       
+   </script>
    <script>
        $(document).ready(function () {
            //init sidenav
